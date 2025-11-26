@@ -13,9 +13,5 @@ import seaborn as sns
 #This analyse will be helpful for those working in Airlines,Travel domain.
 
 
-
-
-
-
 data = pd.read_csv("airlines_flights_data.csv")
-print(data.head(5))
+print(data)
