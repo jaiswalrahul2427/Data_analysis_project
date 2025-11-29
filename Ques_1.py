@@ -28,4 +28,3 @@ plt.tight_layout()
 
 plt.show()
 
-17.04
