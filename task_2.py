@@ -19,7 +19,7 @@ plt.figure(figsize=(16,4))
 
 # ----- Departure Time -----
 plt.subplot(1,2,1)
-plt.bar(dep_counts.index, dep_counts.values)
+plt.bar(dep_counts.index, dep_counts.values,color=["r","b"])
 plt.title("Departure Time Counts")
 plt.xlabel("Departure Time")
 plt.ylabel("Frequency")
@@ -27,7 +27,7 @@ plt.xticks(rotation=45)
 
 # ----- Arrival Time -----
 plt.subplot(1,2,2)
-plt.bar(arr_counts.index, arr_counts.values)
+plt.bar(arr_counts.index, arr_counts.values,color=["pink","yellow"])
 plt.title("Arrival Time Counts")
 plt.xlabel("Arrival Time")
 plt.ylabel("Frequency")
