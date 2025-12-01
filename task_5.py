@@ -9,7 +9,7 @@ print(data)
 print("Average Price by Arrival Time:")
 # plt.figure(figsize=(8,5))
 print(data.groupby('arrival_time')['price'].mean())
-sns.catplot(x='arrival_time',y='price',kind='bar',data=data,height=6,aspect=1)
+sns.catplot(x='arrival_time',y='price',kind='bar',data=data,col='airline',height=6,aspect=1)
 plt.show()
 
 
